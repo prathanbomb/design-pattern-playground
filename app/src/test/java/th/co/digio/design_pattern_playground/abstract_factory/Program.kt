@@ -9,7 +9,9 @@ class Program {
 
     @Test
     fun main() {
+        print("Creating Windows Factory ...\n")
         createApplication(WinFactory())
+        print("Creating MacOS Factory ...\n")
         createApplication(MacFactory())
     }
 
